@@ -6,6 +6,7 @@ import Header from './components/Headers';
 import Main from './components/Main';
 import Projects from './components/Projects';
 import Resume from './components/Resume';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
       <Header/>
       <Main/>
       <About/>
-      <Projects/>
+      <Skills/>
+      {/* <Projects/> */}
       <Resume/>
       <Contacts/>
       <Footers/>

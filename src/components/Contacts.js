@@ -7,25 +7,23 @@ export default function Contacts() {
     return (
         <section className='flex flex-col bg-primary px-5 py-32' id="contacts">
             <div className='flex flex-col items-center text-white'>
-                <h1 className='text-4xl border-secountry border-b-4 mb-5 w-[140px] font-bold'>Contacts</h1>
+                <h1 className='text-4xl border-secountry border-b-4 mb-5 w-[150px] font-bold'>Contacts</h1>
                 <p className="pb-5">If you want more details, please contact me.</p>
-                <div>
                     <ul className="flex flex-col text-white">
-                        <li>
-                            <IoLocationSharp />
+                        <li className="flex items-center">
+                            <IoLocationSharp className="mr-2" />
                             <span>3/41, Palpannai ST, Sundaranachiapuram.</span>
                         </li>
-                        <li>
-                            <FiPhone />
+                        <li className="flex items-center">
+                            <FiPhone className="mr-2" />
                             <span>+91-8220642296</span>
                         </li>
-                        <li>
-                            <AiOutlineMail />
+                        <li className="flex items-center">
+                            <AiOutlineMail className="mr-2" />
                             <span>siva339h@gmail.com</span>
                         </li>
-                    </ul>   
-                </div>
-            
+                    </ul>
+
             </div>
         </section>
     );
